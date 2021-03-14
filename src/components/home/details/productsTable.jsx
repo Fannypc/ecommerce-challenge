@@ -4,7 +4,7 @@ import {Table} from 'react-bootstrap';
 export default function ProductsTable(props){
     return(
         <>
-            <Table striped bordered hover className="bg-white">
+            <Table responsive striped bordered hover className="bg-white">
             <thead>
                 <tr>
                 <th>SKU</th>
